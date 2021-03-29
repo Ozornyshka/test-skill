@@ -52,6 +52,7 @@ header {
   width: 100%;
   order: 1;
   margin-top: 34px;
+  gap: 10px;
 
   a {
     background-color: #FF4C00;
@@ -88,7 +89,6 @@ header {
   &_block {
     display: flex;
     margin-top: 40px;
-    align-items: center;
     justify-content: space-between;
 
     .left {
@@ -219,11 +219,12 @@ header {
   .footer {
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 50px;
 
     .item {
       display: none;
 
-      &:nth-child(n+9) {
+      &:nth-child(n+13) {
         display: flex;
       }
     }
